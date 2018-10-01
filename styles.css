@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.375em;
+  line-height: 1.375em;
+  word-break: break-word;
+
+  margin: 5px;
+
+}
+
+p {
+  line-height: 1.375em;
+}
+
+.cards {
+  padding: 5px;
+  background: #eee;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  padding: 5px;
+
+  background: #fff;
+  border: 2px solid;
+  border-color: #aaa;
+  border-radius: 5px;
+
+  max-width: 470px;
+  max-height: 300px;
+  min-width: 470px;
+
+  margin-bottom: 10px;
+
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+
+  padding: 5px;
+}
+
+.card__text {
+  flex: 1 1 auto;
+  overflow: scroll;
+  word-break: break-word;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+
+}
+
+li {
+  display: flex;
+  margin: 3px;
+  margin-top: 0;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+img {
+  width: 150px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
